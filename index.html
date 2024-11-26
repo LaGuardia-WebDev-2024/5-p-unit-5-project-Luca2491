@@ -1,14 +1,14 @@
 <!-- Unit 5 Project
 Requirements
-[  ] <div> and <span>
-[  ] height: and width:
-[  ] margin: and padding: 
-[  ] Three Images
+[ x ] <div> and <span>
+[ x ] height: and width:
+[ x ] margin: and padding: 
+[ x ] Three Images
 
 Select ONE Additional Feature to Add  
-[ no ] Feature 1 - Flexbox
+[ yes ] Feature 1 - Flexbox
 [ no ] Feature 2 - Flip Card
-[ no ] Feature 3 - Navbar
+[ yes ] Feature 3 - Navbar
 [ no ] Feature 4 - Shaking Animation
 [ no ] Feature 5 - Gradient Background
 [ no ] Feature 6 - Spotify Playlist
@@ -16,17 +16,230 @@ Select ONE Additional Feature to Add
 
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Unit 5 Project</title>
+    <meta charset="utf-8" />
+    <style>
+    
+      #red-bar {
+        background-color: red;
+        height: 20px;
+        top: 0;
+      }
+      
+      #tube {
+        background-color: red;
+        color: white;
+      }
+      
+      .size {
+        font-size: 30px;
+      }
+      
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+/*         background-color: lightblue; */
+        overflow: hidden;
+        position: fixed;
+        top: 1;
+        width: 50%;
+      }
+      
+      li {
+        display: inline;
+      }
+      
+      li a {
+        padding: 10px;
+        color: blue;
+        background-color: lightblue;
+      }
+      
+      .center {
+        width: 50%;
+        margin: auto;
+      }
+      
+      .next {
+        background-color: rgb(244,244,244);
+        width: 300px;
+        height: 350px;
+        overflow-y: auto;
+        overflow-x: auto;
+        
+      }
+      
+      table, td {
+        border: 1px solid;
+      }
+      
+      .space {
+        
+      }
+      
+      .container {
+/*         background-color: beige ; */
+          display: flex;
+        justify-content: space-evenly;
+        width: 90%;
+        margin: auto;
+      }
+      
+      .item {
+/*         background-color: aliceblue; */
+      }
+      
+      #gap {
+        background-color: white;
+        height:2px;
+      }
+      
+         #gap2 {
+        background-color: lightgray;
+        height:30px;
+        text-align: center;
+      }
+      
+      #search2 {
+        background-color: white;
+      }
+      
+      #blue {
+        color: blue;
+      }
+      
+      #darkblue1 {
+        color: darkblue;
+      }
+      
+      #gap3 {
+        justify-content: space-between;
+      }
+      
+      .tube1 {
+        margin-right: 1500px;
+      }
+      
+      #fonty {
+        font-size: 10px;
+      }
+      
+      #tube4 {
+        margin-right: 400px;
+      }
+      
+    </style>
+  </head>
+  <body>
+    
+    <p>
+      <div id="gap3">
+        
+    <strong class="size">=</strong>
+      <strong class="size tube1">You<span id="tube">Tube</span></strong>
+      
+      <u><strong id="blue">Sign Up</strong></u> | <span id="darkblue1">Sign In</span> | <span id="darkblue">Help</span></div>
+      
+      <div class="center">
+        <ul>
+      <li><a href="https://www.homedepot.com/">Home</a></li>
+      <li><a href="https://www.youtube.com/">Watch Videos</a></li>
+      <li><a href="https://www.dropbox.com/lp/business/video-storage?_tk=paid_sem_goog_biz_nb&_camp=17569359592&_kw=video%20storage|b&_ad=701742971658||c&gad_source=1&gclid=EAIaIQobChMIg5OD-f_3iQMVzkpHAR3_ITh6EAAYASAAEgIpKvD_BwE">Upload videos</a></li>
+      <li><a href="https://www.reddit.com/r/MultiVersus/comments/1d9lcsm/how_do_i_invite_friends/?rdt=61921">Invite Friends</a></li>
+    </ul>
+      </div>
+      
+    </p>
+    
+    <p id="gap">
+      
+  </p>
 
-<head>
-  <title>Unit 5 Project</title>
-  <meta charset="utf-8">
-  <style>
+  <p id="gap2">
+    <span id="search2">______________________</span> <span id="search">Videos <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPYqkzEA-aXywbdvrhd92CPfg-JYiyqGlmgg&s" width="10"></span> 
+    <img src="https://static.vecteezy.com/system/resources/previews/014/767/647/non_2x/magnifying-glass-or-search-icon-on-white-background-illustration-eps-10-vector.jpg" width="20">
+  </p>
+     <p>
+       <div class="container">
+         
 
-  </style>
-</head>
-<body>
+        <video src="https://cdn.glitch.global/7622ade4-70fa-481e-b353-855b22a7b128/HTML%EF%BC%9A%20Text%20emphasis%20%EF%BD%9C%20Intro%20to%20HTML%E2%A7%B8CSS%EF%BC%9A%20Making%20webpages%20%EF%BD%9C%20Computer%20Programming%20%EF%BD%9C%20Khan%20Academy%202.mp4?v=1732643885812" width="800px" length="700px" controls></video>
+       <div class="item">
+    <div class="next">
+      <div class="space">
+     
+        
+        
+        
+        <table>
+          <tbody>
+            <tr>
+        <td>
+          <img src="https://i.ytimg.com/vi/dC34rfY8Eyk/maxresdefault.jpg" width="100">
+              </td>
+              <td>
+              <a href="https://www.youtube.com/watch?v=KGGF6WZdsns">CSS grouping elements | Intro to HTML/CSS: Making webpages | Computer Programming | Khan Academy</a>
+              </td>
+            </tr>
+        <tr>
+        <td>
+          <img src="https://i.ytimg.com/vi/ItZN6o0ylao/maxresdefault.jpg" width="100">
+          </td>
+          <td>
+              <a href="https://www.youtube.com/watch?v=Xhta9NIqG0o">CSS width, height, and overflow | Computer Programming | Khan Academy</a>
+              </td>
+          </tr>
+            <tr>
+        <td>
+        <img src="https://i.ytimg.com/vi/283QCQt7oS4/hq720.jpg?sqp=-oaymwExCK4FEIIDSFryq4qpAyMIARUAAIhCGAHwAQH4Af4IgALQBYoCDAgAEAEYfyA5KDswDw==&rs=AOn4CLBp92G6OfE-sq1QpwqQhKQk4z1Wuw" width="100">
+           </td>
+              <td>
+              <a href="https://www.youtube.com/watch?v=g3jMAW7k7TE">CSS box model | Intro to HTML/CSS: Making webpages | Computer Programming | Khan Academy</a>
+              </td>
+          </tr>
+        <tr>
+        <td>
+        <img src="https://i.ytimg.com/vi/PhyF-HdbV8M/maxresdefault.jpg" width="100">
+           </td>
+          <td>
+              <a href="https://www.youtube.com/watch?v=wMXPIY7L60Q">CSS Flexbox</a>
+              </td>
+          </tr>
+        <tr>
+        <td>
+        <img src="https://i.ytimg.com/vi/jBd9-jw-kTc/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBl_W8D0KKT7ChVKUBrY-SZ9wtPeA" width="100">
+           </td>
+          <td>
+              <a href="https://www.youtube.com/watch?v=nuXahrkx_9s">CSS Flexbox + W3Schools FlipCards</a>
+              </td>
+          </tr>
+        <tr>
+        <td>
+        <img src="https://i.ytimg.com/vi/prG3mvho3tU/maxresdefault.jpg" width="100">
+          </td>
+          <td>
+              <a href="https://www.youtube.com/watch?v=R6wBFHB4Iag">HTML + CSS Nav Bar</a>
+              </td>
+            </tr>
+          </tbody>
+      </table>
+      </div>
+</div>
+  </div>
+  </div>
+</p>
+  
+<table>
+  <tbody>
+  <tr>
+    <td><span id="tube4"><strong>Rate:</strong><img src="https://t3.ftcdn.net/jpg/02/80/35/46/360_F_280354630_6KFfe3becIB1HyAbW8HfyErGy1KyqvPn.jpg" width="100"><span id="fonty">752 ratings</span></span> <strong>Views:</strong> 329,564 </td>
+    </tr>
+  </tbody>
+</table>
+  
+  
 
- 
-
-</body>
+  </body>
 </html>
